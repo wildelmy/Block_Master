@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Button } from 'react-bootstrap';
-import '../styles/styleLogin.css'
+import '../../styles/styleLogin.css'
 
 const login = () => {
     return (
@@ -8,7 +8,7 @@ const login = () => {
           <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Correo</Form.Label>
-          <Form.Control type="email" placeholder="Ingresa tu E-mail" />
+          <Form.Control type="email" placeholder="Ingresa tu E-mail" /> 
         </Form.Group>
  
         <Form.Group className="mb-3" controlId="formBasicPassword">
