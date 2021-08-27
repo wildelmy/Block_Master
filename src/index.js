@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './components/auth/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import EditTaks from './components/formulario/EditMovie';
 
 ReactDOM.render(
-   <Login />,
+   <EditTaks />,
   document.getElementById('root')
 );
