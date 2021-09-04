@@ -21,5 +21,5 @@ export const PrivateRoute = ({
 
 PrivateRoute.propTypes = {
     isAuthenticated: PropTypes.bool.isRequired,
-    component: propTypes.func.isRequired
+    component: PropTypes.func.isRequired
 }

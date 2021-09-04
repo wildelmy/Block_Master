@@ -1,11 +1,11 @@
 import React from 'react'
 
-const EditTaks = () => {
+const Movie = () => {
     return (
         <div>
-            
+            Movie
         </div>
     )
 }
 
-export default EditTaks
+export default Movie;

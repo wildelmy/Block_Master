@@ -2,6 +2,7 @@ import React from 'react'
 import '../../styles/styleLogin.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
+import { Link } from 'react-router-dom'
 
 const login = () => {
   return (

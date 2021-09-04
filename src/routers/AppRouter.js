@@ -4,7 +4,7 @@ import {
   Switch,
   Redirect
 } from "react-router-dom";
-import AppMovie from '../components/formulario/AppMovie'
+import AppMovie from '../pages/AppMovie'
 import { AuthRouter } from './AuthRouter'
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
@@ -29,6 +29,8 @@ export const AppRouter = () => {
           component={AppMovie}
           isAuthenticated={isLooggedIn}
           />
+
+          <Redirect to = "/AuthRouter/Login" />
     
         </Switch>
       </div>

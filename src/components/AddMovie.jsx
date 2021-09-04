@@ -3,7 +3,7 @@ import React from 'react'
 const AddMovie = () => {
     return (
         <div className="card container text-center">
-        <h2>Agregar nueva tarea</h2>
+        <h2>Agregar nueva pelicula</h2>
         <form className="card-body " >
           <div className="form-group">
             <input

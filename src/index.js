@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EditTaks from './components/formulario/EditMovie';
+import './styles/style.css'
+import AppMovie from './pages/AppMovie';
+
 
 ReactDOM.render(
-   <EditTaks />,
+   <AppMovie />,
   document.getElementById('root')
 );
