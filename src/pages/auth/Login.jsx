@@ -10,7 +10,7 @@ const login = () => {
 
   const dispatch = UseDispatch();
 
-  const [values, handleInputChange, reset] = UseForm({
+  const [values, handleInputChange] = UseForm({
     email: '',
     password: ''
   })
@@ -100,12 +100,6 @@ const login = () => {
             <b>Entrar con Facebook</b>
           </p>
         </div>
-        <a
-          to="/auth/register"
-          className="link"
-        >
-          Crear nueva cuenta
-        </a>
       </form>
     </div>
   )

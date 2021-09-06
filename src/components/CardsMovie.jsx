@@ -9,7 +9,7 @@ const CardsMovie = () => {
             <h3>Titulo</h3>
             <img className="text-center container" src="" alt="" width="60px" height="80px" />
             <span className="badge badge-pill bg-danger ml-2">
-            Prioridad
+              Prioridad
             </span>
 
           </div>

@@ -16,6 +16,9 @@ const Navbar = () => {
           <a className="p-2 text-white" href="/" >
             Menos valoradas
           </a>
+          <a className="p-2 text-white" href="/" >
+            Agregar peliculas
+          </a>
           
         </nav>
       </div>
