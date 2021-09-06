@@ -2,10 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/style.css'
-import AppMovie from './pages/AppMovie';
+import { Provider } from 'react-redux';
+import { store } from './store/store.js';
+import Login from './pages/auth/Login'
+
 
 
 ReactDOM.render(
-   <AppMovie />,
+  <Provider store= {store}>
+   <Login />
+  </Provider>,
   document.getElementById('root')
 );
