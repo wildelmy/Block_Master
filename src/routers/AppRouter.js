@@ -4,7 +4,7 @@ import {
   Switch,
   Redirect
 } from "react-router-dom";
-import AppMovie from '../pages/AppMovie'
+import Home from '../pages/Home.jsx'
 import { AuthRouter } from './AuthRouter'
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
@@ -26,7 +26,7 @@ export const AppRouter = () => {
           <PrivateRoute
           exact
           path="/"
-          component={AppMovie}
+          component={Home}
           isAuthenticated={isLooggedIn}
           />
 

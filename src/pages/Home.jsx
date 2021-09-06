@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../components/shared/Navbar';
-import CardsMovie from '../components/CardsMovie'
+import CardsMovie from '../components/CardsMovie';
+import Movie from '../components/Movie.jsx'
 
-const AppMovie = () => {
+const Home = () => {
     return (
         <div>
-            <Navbar />
+        <Navbar />
         <div className="container ">
             <div className="row mt-4">
                 <div className="col-md-8">
@@ -17,8 +18,10 @@ const AppMovie = () => {
                 </div>
             </div>
         </div>
+       <Movie /> 
+
         </div> 
     )
 }
 
-export default AppMovie
+export default Home
