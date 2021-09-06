@@ -3,8 +3,7 @@ import '../../styles/styleLogin.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { UseForm } from '../../hooks/useForm'
 import { useDispatch as UseDispatch} from 'react-redux'
-import { loginAction } from '../../actions/actions'
-import { loginGoogle } from '../../actions/actions'
+import { loginAction, loginFacebook, loginGoogle } from '../../actions/actions'
 
 
 const login = () => {
@@ -25,6 +24,10 @@ const login = () => {
 
   const handleLoginGoogle = () => {
     dispatch(loginGoogle());
+  }
+
+  const handleLoginFacebook = () => {
+    dispatch(loginFacebook());
   }
 
   return (
@@ -85,6 +88,7 @@ const login = () => {
         </div>
         <div
           className="google-btn btn-primary"
+          onClick= {handleLoginFacebook}
         >
           <div className="google-icon-wrapper">
             <img className="google-icon"
